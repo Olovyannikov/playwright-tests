@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","945","Update Pet","","Fri Dec 13 19:56:14 MSK 2024","passed","Fri Dec 13 19:56:15 MSK 2024","Pet","pet.spec.ts","",""
+"","947","Create Pet","","Fri Dec 13 19:56:14 MSK 2024","passed","Fri Dec 13 19:56:15 MSK 2024","Pet","pet.spec.ts","",""
+"","939","Delete Pet","","Fri Dec 13 19:56:14 MSK 2024","failed","Fri Dec 13 19:56:15 MSK 2024","Pet","pet.spec.ts","",""
+"","946","Get Pet By Id","","Fri Dec 13 19:56:14 MSK 2024","failed","Fri Dec 13 19:56:15 MSK 2024","Pet","pet.spec.ts","",""
+"","829","Pet not found","","Fri Dec 13 19:56:15 MSK 2024","passed","Fri Dec 13 19:56:16 MSK 2024","Pet","pet.spec.ts","",""

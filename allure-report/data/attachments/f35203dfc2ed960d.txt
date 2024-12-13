@@ -1,0 +1,10 @@
+{
+  response: {
+    id: 1,
+    category: { id: 1, name: 'string' },
+    name: 'doggie',
+    photoUrls: [ 'string' ],
+    tags: [ [Object] ],
+    status: 'available'
+  }
+}
