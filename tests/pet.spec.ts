@@ -7,7 +7,7 @@ test.describe('Pet', async () => {
     test('Get Pet By Id', async () => {
         const context = await getDefaultAPIContext();
         const petClient = new PetstoreApiClient(context);
-        await petClient.getPetById(1);
+        await petClient.getPetById(12);
     });
 
     test('Create Pet', async () => {

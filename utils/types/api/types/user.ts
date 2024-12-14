@@ -6,7 +6,7 @@ export interface User {
     email: string;
     password: string;
     phone: string;
-    userStatus: string;
+    userStatus: number;
 }
 
 export interface UserUpdate extends Partial<Omit<User, 'id'>> {}
