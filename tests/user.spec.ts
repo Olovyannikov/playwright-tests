@@ -1,7 +1,7 @@
 import { UserApiClient } from '@/core/api/user-api';
 import { getDefaultAPIContext } from '@/core/context/default-context';
 
-import test, { expect } from '@playwright/test';
+import test from '@playwright/test';
 
 test.describe('User', async () => {
     test('Get User By Id', async () => {

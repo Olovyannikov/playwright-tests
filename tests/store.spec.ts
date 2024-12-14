@@ -1,6 +1,6 @@
 import { StoreApiClient } from '@/core/api/store-api';
 import { getDefaultAPIContext } from '@/core/context/default-context';
-import { Order } from '@/utils/types/api/types/order';
+import type { Order } from '@/utils/types/api/types/order';
 
 import test, { expect } from '@playwright/test';
 

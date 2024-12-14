@@ -8,5 +8,3 @@ export interface User {
     phone: string;
     userStatus: number;
 }
-
-export interface UserUpdate extends Partial<Omit<User, 'id'>> {}

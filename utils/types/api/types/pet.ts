@@ -12,5 +12,3 @@ export interface Pet {
     }[];
     status: string;
 }
-
-export interface UpdatePet extends Partial<Omit<Pet, 'id'>> {}

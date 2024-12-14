@@ -6,5 +6,3 @@ export interface Order {
     status: string;
     complete: boolean;
 }
-
-export interface UpdateOrder extends Partial<Omit<Order, 'id'>> {}
